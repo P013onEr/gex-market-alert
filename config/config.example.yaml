@@ -1,0 +1,17 @@
+symbols:
+  - SPY
+  - QQQ
+
+monitor:
+  poll_interval_seconds: 60
+  alert_distance_percent: 0.5
+  cooldown_seconds: 1800
+  levels:
+    - king
+    - floor
+    - pillow
+
+notifications:
+  channels:
+    - openclaw
+  include_ai_summary: false
